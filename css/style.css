@@ -489,7 +489,7 @@
         }
         
         .venture-veteran-banner {
-            background-image: url(../images/venture-veteran-banner.svg);
+            background-image: url(../images/4445.jpg);
             height: 400px;
             background-position: 50% 50%;
             background-size: cover;
@@ -529,12 +529,13 @@
         }
         
         .invest-holder {
-            background-image: url(../images/what-we-do.png);
+            background-image: url(../images/what-we-do.jpg);
             height: 400px;
             background-position: 50% 50%;
             background-size: cover;
             width: 100%;
             background-repeat: no-repeat;
+            background-attachment: fixed;
         }
         
         .invest-overlay {
@@ -642,7 +643,6 @@
         
         .footer-content {
             color: #fff;
-            font-size: 10px;
         }
         
         .tech {

@@ -141,13 +141,13 @@
 	<footer>
 		<div class="container">
 			<div class="footer-content">
-				<p class="float-left">
+				<span class="float-left">
 					&#9400; <script>document.write(new Date().getFullYear());</script> Venture Veteran. All Rights Reserved.
-				</p>
+				</span>
 
-				<p class="float-right">
+				<span class="float-right">
 					Design and Development by <a href="http://onthegotechnologies.com/" class="tech" target=_blank>OntheGo Technologies</a> 
-				</p>	
+				</span>	
 			</div>
 		</div>
 		
