@@ -87,7 +87,7 @@
 				<h2 class="invest-h2">we invest in fast growing technology businesses</h2>
 				<div class="row">
 					<div class="col">
-						<div class="card">
+						<div class="card cards">
 							<div class="card-body">
 							<span><i class="far fa-lightbulb"></i></span>
 							<h5 class="card-title">Discover</h5>
@@ -98,23 +98,23 @@
 						</div>
 					</div>
 					<div class="col">
-						<div class="card">
+						<div class="card cards">
 							<div class="card-body">
 								<span><i class="fas fa-piggy-bank"></i></span>
 								<h5 class="card-title">Invest</h5>
 									<p class="card-p">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eius ab ipsam accusantium.
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eius ab ipsam accus.
 									</p>	
 							</div>
 						</div>
 					</div>
 					<div class="col">
-						<div class="card">
+						<div class="card cards">
 							<div class="card-body">
 								<span><i class="fab fa-pagelines"></i></span>
 								<h5 class="card-title">Grow</h5>
 								<p class="card-p">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eius ab ipsam accusantium.
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eius ab ipsam accus.
 								</p>	
 							</div>
 						</div>
