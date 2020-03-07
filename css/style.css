@@ -530,7 +530,7 @@
         
         .invest-holder {
             background-image: url(../images/what-we-do.jpg);
-            height: 450px;
+            height: 500px;
             background-position: 50% 50%;
             background-size: cover;
             width: 100%;
@@ -539,7 +539,7 @@
         }
         
         .invest-overlay {
-            height: 450px;
+            height: 500px;
             background-color: #000;
             opacity: 0.8;
             padding: 50px 0;
@@ -906,7 +906,7 @@
         
         .why-Vveterans {
             background-image: url(../images/meeting.jpg);
-            height: 400px;
+            height: 450px;
             background-position: 50% 50%;
             background-size: cover;
             width: 100%;
@@ -917,8 +917,8 @@
         .why-Vveterans-Overlay {
             background: #000;
             opacity: 0.8;
-            height: 400px;
-            padding: 50px 0;
+            height: 450px;
+            padding: 70px 0;
         }
         
         .why-Vveterans-Overlay h2 {
@@ -939,14 +939,65 @@
         
         .our-strength .icons {
             display: block;
+            margin-bottom: 10px;
+        }
+        
+        .our-ethos-style {
+            margin-top: 15px;
         }
         
         .text-span {
             color: #fff;
             text-align: justify;
-            letter-spacing: ;
+            letter-spacing: 1px;
         }
         
         .fa-lock {
             color: #fff;
+        }
+        
+        .contact-banner {
+            background-image: url(../images/contact-banner.jpg);
+            height: 400px;
+            background-position: 50% 50%;
+            background-size: cover;
+            width: 100%;
+            background-repeat: no-repeat;
+        }
+        
+        .contact-overlay {
+            height: 400px;
+            background-color: #000;
+            opacity: 0.8;
+        }
+        
+        .contact-title {
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+        }
+        
+        .contactClass {
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .formDetails {
+            padding: 50px 0;
+        }
+        
+        .card-titles {
+            text-align: center;
+            text-transform: uppercase;
+        }
+        
+        .cards {
+            margin-top: 30px;
+        }
+        
+        input:focus,
+        textarea:focus,
+        select:focus {
+            outline: none;
         }
