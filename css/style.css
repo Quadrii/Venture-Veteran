@@ -1,35 +1,4 @@
         @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-        #backtop {
-            position: fixed;
-            left: auto;
-            right: 20px;
-            top: auto;
-            bottom: 20px;
-            outline: none;
-            overflow: hidden;
-            color: #fff;
-            text-align: center;
-            background-color: rgba(49, 79, 96, 0.84);
-            height: 40px;
-            width: 40px;
-            line-height: 40px;
-            font-size: 14px;
-            border-radius: 2px;
-            cursor: pointer;
-            transition: all 0.3s linear;
-            z-index: 999999;
-            opacity: 1;
-            display: none;
-        }
-        
-        #backtop:hover {
-            background-color: #208CAC;
-        }
-        
-        #backtop.mcOut {
-            opacity: 0;
-        }
-        
         body {
             font-family: 'Poppins', sans-serif;
             font-size: 16px;
@@ -37,7 +6,7 @@
             font-weight: 400;
             color: #212112;
             background-size: 7%;
-            background-color: #fff;
+            /* background-color: #fff; */
             overflow-x: hidden;
             transition: all 200ms linear;
         }
@@ -76,12 +45,12 @@
         
         .navigation-wrap {
             position: fixed;
+            background-color: #fff;
             width: 100%;
             top: 0;
             left: 0;
             z-index: 1000;
             -webkit-transition: all 0.3s ease-out;
-            transition: all 0.3s ease-out;
         }
         
         .navbar-light .navbar-nav .show>.nav-link,
@@ -690,19 +659,19 @@
         
         .title-holder {
             display: inline-block;
-            background-color: #fff;
-            opacity: 0.6;
             height: 200px;
             width: 40%;
             margin-top: 130px;
             padding: 30px 15px;
-            border-radius: 3px;
         }
         
         .title-holder h2 {
             font-weight: bolder;
             text-align: center;
-            text-transform: capitalize;
+            text-transform: uppercase;
+            font-size: 30px;
+            letter-spacing: 10px;
+            color: #fff;
         }
         
         .title-holder small {
@@ -977,6 +946,10 @@
             letter-spacing: 10px;
         }
         
+        .bottom {
+            margin-bottom: 20px;
+        }
+        
         .contactClass {
             text-align: center;
             text-transform: uppercase;
@@ -1000,4 +973,9 @@
         textarea:focus,
         select:focus {
             outline: none;
+        }
+        
+        .contact-button {
+            background-color: #A2A975;
+            color: #000000;
         }
