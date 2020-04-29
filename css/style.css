@@ -462,7 +462,7 @@
             height: 400px;
             background-position: 50% 50%;
             background-size: cover;
-            width: 100%;
+            max-width: 100%;
             background-repeat: no-repeat;
         }
         
@@ -785,7 +785,27 @@
             background-repeat: no-repeat;
         }
         
+        .mobile-view-img {
+            background-image: url(../images/community.jpg);
+            height: 450px;
+            background-position: 50% 50%;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        .mobile-view-imgs {
+            background-image: url(../images/mentors.jpg);
+            height: 450px;
+            background-position: 50% 50%;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
         .text-wrapper {
+            margin-top: 40px;
+        }
+        
+        .text-wrap {
             margin-top: 40px;
         }
         
@@ -805,6 +825,25 @@
             font-weight: bolder;
             letter-spacing: 10px;
             line-height: 50px;
+        }
+        
+        .text-wrap h2 {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bolder;
+            letter-spacing: 10px;
+        }
+        
+        .text-wrap .text {
+            text-align: justify;
+            line-height: 38px;
+            margin-bottom: 20px;
+        }
+        
+        .mobile-view,
+        .mobile-views {
+            display: none;
+            margin-top: 20px;
         }
         
         .text-wrapper .text {
