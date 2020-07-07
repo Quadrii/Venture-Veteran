@@ -1,4 +1,8 @@
         @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+        html {
+            scroll-behavior: smooth;
+        }
+        
         body {
             font-family: 'Poppins', sans-serif;
             font-size: 16px;
@@ -614,6 +618,7 @@
             background-color: #000;
             height: 60px;
             padding: 20px 0;
+            margin-top: 20px;
         }
         
         .footer-content {
@@ -686,6 +691,11 @@
         .formation-wrap {
             background-color: #A2A975;
             height: 400px;
+            margin-top: 20px;
+        }
+        
+        .seed-funding {
+            margin-top: 20px;
         }
         
         .left-width {
@@ -732,11 +742,12 @@
         
         .right-banner {
             background-image: url(../images/ideation.jpg);
-            height: 400px;
+            height: 300px;
             background-position: 50% 50%;
             background-size: cover;
             width: 100%;
             background-repeat: no-repeat;
+            border-radius: 3px;
         }
         
         .mtop {
@@ -762,6 +773,12 @@
             background-size: cover;
             width: 100%;
             background-repeat: no-repeat;
+        }
+        
+        .img-overlay {
+            background-color: #000;
+            opacity: 0.6;
+            height: 300px;
         }
         
         .wrapper {
